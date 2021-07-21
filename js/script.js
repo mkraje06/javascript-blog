@@ -17,8 +17,6 @@ const titleClickHandler = function(event){
     clickedElement.classList.add('active');
 }
 
-
-
   
     /* remove class 'active' from all articles */
     const activeArticles = document.querySelectorAll('article.post');
