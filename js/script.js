@@ -40,3 +40,13 @@ const titleClickHandler = function(event){
     link.addEventListener('click', titleClickHandler);
     console.log
   }
+
+  const optArticleSelector = '.post',
+  optTitleSelector = '.post-title',
+  optTitleListSelector = '.titles',
+  optArticleTagsSelector = '.post-tags .list',
+  optArticleAuthorSelector = '.post-author',
+  optTagsListSelector = '.tags.list';
+
+  function generateTitleLinks(customSelector = ''){
+  
